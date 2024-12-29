@@ -13,6 +13,7 @@
   }
 }
 
+/* Mobile Styles */
 @media (max-width: 600px) {
   nav ul {
     flex-direction: column; /* Stack navigation items vertically */
@@ -65,6 +66,56 @@
 
   .delete-button {
     margin-top: 10px; /* Add margin for spacing */
+  }
+}
+
+/* Tablet Styles */
+@media (min-width: 601px) and (max-width: 900px) {
+  .module {
+    margin: 15px; /* Adjust margin for tablets */
+    padding: 20px; /* Adjust padding for tablets */
+  }
+
+  table {
+    font-size: 1em; /* Adjust table font size for tablets */
+  }
+
+  button {
+    width: auto; /* Reset button width for tablets */
+  }
+
+  .modal > div {
+    width: 80%; /* Make modal responsive for tablets */
+    max-width: 500px; /* Limit max width */
+  }
+
+  h1 {
+    font-size: 1.75em; /* Adjust heading size for tablets */
+  }
+}
+
+/* Desktop Styles */
+@media (min-width: 901px) {
+  .module {
+    margin: 20px; /* Standard margin for desktops */
+    padding: 25px; /* Standard padding for desktops */
+  }
+
+  table {
+    font-size: 1em; /* Standard table font size for desktops */
+  }
+
+  button {
+    width: auto; /* Reset button width for desktops */
+  }
+
+  .modal > div {
+    width: 60%; /* Make modal responsive for desktops */
+    max-width: 600px; /* Limit max width */
+  }
+
+  h1 {
+    font-size: 2em; /* Standard heading size for desktops */
   }
 }
 
@@ -126,7 +177,7 @@ nav ul li a {
   color: white;
   text-decoration: none;
   font-weight: bold;
-  padding: 8px 16px;
+ padding: 8px 16px;
   border-radius: 4px;
   transition: background-color 0.3s;
 }
@@ -186,7 +237,7 @@ button:hover {
 
 .modal {
   position: fixed;
-  top : 0;
+  top: 0;
   left: 0;
   right: 0;
   bottom: 0;
