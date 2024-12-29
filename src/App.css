@@ -1,0 +1,326 @@
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (max-width: 600px) {
+  nav ul {
+      flex-direction: column;
+  }
+
+  nav ul li {
+    display: block;
+      margin: 10px 0;
+  }
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+
+nav {
+  padding: 10px;
+  background-color: #383734;
+  padding: 10px;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  margin: 0 15px;
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 8px 16px;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+nav ul li a:hover {
+  background-color: #565b64b6;
+  text-decoration: underline;
+}
+
+.module {
+  margin: 20px;
+  padding: 20px;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+th, td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+th {
+  color: white;
+  background-color: #282c34;
+}
+
+button {
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-right: 10px;
+  transition: background-color 0.3s ease;
+  background-color: #282c34;
+}
+
+button:hover {
+  background-color: #4a4b4b;
+}
+
+.notification {
+  margin: 20px 0;
+  padding: 10px;
+  border-radius: 4px;
+  margin-top: 20px;
+  margin-top: 20px;
+}
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: white;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.modal > div {
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  width: 400px;
+}
+
+.modal h2 {
+  margin-top: 0;
+}
+
+
+/* @media (max-width: 600px) {
+  nav ul li {
+      display: block;
+      margin: 10px 0;
+  }
+} */
+
+tr:hover {
+  background-color: #f1f1f1;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+/* input[type="text"],
+input[type="date"],
+select,
+textarea {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+} */
+input[type="text"],
+input[type="number"],
+input[type="date"],
+textarea,
+select {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+textarea {
+  height: 80px;
+}
+
+.notification h4 {
+  margin: 10px 0;
+}
+
+.notification ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.notification li {
+  background: #e7f3fe;
+  margin: 5px 0;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+.company-list {
+    list-style-type: none; 
+    padding: 0; 
+}
+
+.company-list li {
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 8px; 
+    border-bottom: 1px solid #ccc; 
+}
+
+.delete-button {
+  background-color: #282c34;
+    color: white;
+    border: none; 
+    border-radius: 4px; 
+    padding: 8px 12px; 
+    cursor: pointer; 
+    transition: background-color 0.3s ease; 
+    margin-left: auto;
+}
+
+.delete-button:hover {
+  background-color: #4a4b4b;
+}
+
+.delete-button:focus {
+    outline: none; 
+    box-shadow: 0 0 0 2px rgba(255, 77, 77, 0.5); 
+}
+
+.overdue {
+  background-color: red;
+  color: white;
+  color: black;
+}
+
+.due-today {
+  background-color: yellow;
+}
+
+.communication-item {
+  cursor: pointer;
+}
+
+.calendar-view {
+  padding: 20px;
+}
+
+.communications-list {
+  margin-top: 20px;
+}
+
+h4 {
+  margin-bottom: 10px;
+}
+
+.modal-content {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+  width: 400px;
+}
+
+.badge {
+  font-weight: bold;
+  padding: 4px 8px;
+  border-radius: 12px;
+  margin-left: 5px;
+}
+
+.red {
+  background-color: #ff4d4d; 
+  color: white;
+}
+
+.yellow {
+  background-color: #ffcc00; 
+  color: black;
+}
+
+.communication-item:hover {
+  cursor: pointer;
+  text-decoration: underline; 
+}
