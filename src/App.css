@@ -13,34 +13,33 @@
   }
 }
 
-/* Mobile Styles */
 @media (max-width: 600px) {
   nav ul {
-    flex-direction: column; /* Stack navigation items vertically */
+    flex-direction: column; 
   }
 
   nav ul li {
-    display: block; /* Make each nav item a block */
-    margin: 10px 0; /* Add margin for spacing */
+    display: block; 
+    margin: 10px 0; 
   }
 
   .module {
-    margin: 10px; /* Reduce margin on mobile */
-    padding: 15px; /* Reduce padding on mobile */
+    margin: 10px;
+    padding: 15px; 
   }
 
   table {
-    font-size: 0.9em; /* Adjust table font size for mobile */
+    font-size: 0.9em; 
   }
 
   button {
-    width: 100%; /* Make buttons full-width on mobile */
-    margin: 10px 0; /* Add margin for spacing */
+    width: 100%; 
+    margin: 10px 0; 
   }
 
   .modal > div {
-    width: 90%; /* Make modal responsive */
-    max-width: 400px; /* Limit max width */
+    width: 90%; 
+    max-width: 400px; 
   }
 
   input[type="text"],
@@ -48,74 +47,72 @@
   input[type="date"],
   textarea,
   select {
-    padding: 8px; /* Adjust padding for inputs */
+    padding: 8px; 
   }
 
   h1 {
-    font-size: 1.5em; /* Adjust heading size */
+    font-size: 1.5em; 
   }
 
   .notification {
-    font-size: 0.9em; /* Adjust notification font size */
+    font-size: 0.9em;
   }
 
   .company-list li {
-    flex-direction: column; /* Stack items vertically */
-    align-items: flex-start; /* Align items to the start */
+    flex-direction: column; 
+    align-items: flex-start; 
   }
 
   .delete-button {
-    margin-top: 10px; /* Add margin for spacing */
+    margin-top: 10px; 
   }
 }
 
-/* Tablet Styles */
 @media (min-width: 601px) and (max-width: 900px) {
   .module {
-    margin: 15px; /* Adjust margin for tablets */
-    padding: 20px; /* Adjust padding for tablets */
+    margin: 15px; 
+    padding: 20px; 
   }
 
   table {
-    font-size: 1em; /* Adjust table font size for tablets */
+    font-size: 1em; 
   }
 
   button {
-    width: auto; /* Reset button width for tablets */
+    width: auto; 
   }
 
   .modal > div {
-    width: 80%; /* Make modal responsive for tablets */
-    max-width: 500px; /* Limit max width */
+    width: 80%; 
+    max-width: 500px; 
   }
 
   h1 {
-    font-size: 1.75em; /* Adjust heading size for tablets */
+    font-size: 1.75em; 
   }
 }
 
-/* Desktop Styles */
 @media (min-width: 901px) {
   .module {
-    margin: 20px; /* Standard margin for desktops */
-    padding: 25px; /* Standard padding for desktops */
+    margin: 20px; 
+    padding: 25px;
   }
 
   table {
-    font-size: 1em; /* Standard table font size for desktops */
+    font-size: 1em; 
   }
 
   button {
-    width: auto; /* Reset button width for desktops */
+    width: auto; 
   }
 
   .modal > div {
-    width: 60%; /* Make modal responsive for desktops */
-    max-width: 600px; /* Limit max width */
+    width: 60%; 
+    max-width: 600px;
   }
 
   h1 {
-    font-size: 2em; /* Standard heading size for desktops */
+    font-size: 2em; 
   }
 }
 
