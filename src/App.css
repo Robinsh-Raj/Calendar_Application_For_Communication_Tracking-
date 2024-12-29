@@ -15,12 +15,56 @@
 
 @media (max-width: 600px) {
   nav ul {
-      flex-direction: column;
+    flex-direction: column; /* Stack navigation items vertically */
   }
 
   nav ul li {
-    display: block;
-      margin: 10px 0;
+    display: block; /* Make each nav item a block */
+    margin: 10px 0; /* Add margin for spacing */
+  }
+
+  .module {
+    margin: 10px; /* Reduce margin on mobile */
+    padding: 15px; /* Reduce padding on mobile */
+  }
+
+  table {
+    font-size: 0.9em; /* Adjust table font size for mobile */
+  }
+
+  button {
+    width: 100%; /* Make buttons full-width on mobile */
+    margin: 10px 0; /* Add margin for spacing */
+  }
+
+  .modal > div {
+    width: 90%; /* Make modal responsive */
+    max-width: 400px; /* Limit max width */
+  }
+
+  input[type="text"],
+  input[type="number"],
+  input[type="date"],
+  textarea,
+  select {
+    padding: 8px; /* Adjust padding for inputs */
+  }
+
+  h1 {
+    font-size: 1.5em; /* Adjust heading size */
+  }
+
+  .notification {
+    font-size: 0.9em; /* Adjust notification font size */
+  }
+
+  .company-list li {
+    flex-direction: column; /* Stack items vertically */
+    align-items: flex-start; /* Align items to the start */
+  }
+
+  .delete-button {
+    margin-top: 10px; /* Add margin for spacing */
   }
 }
 
@@ -61,11 +105,9 @@ h1 {
   color: #333;
 }
 
-
 nav {
   padding: 10px;
   background-color: #383734;
-  padding: 10px;
 }
 
 nav ul {
@@ -78,7 +120,6 @@ nav ul {
 nav ul li {
   margin: 0 15px;
   display: inline;
-  margin-right: 20px;
 }
 
 nav ul li a {
@@ -101,7 +142,6 @@ nav ul li a:hover {
   background-color: white;
   border-radius: 5px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-  border-radius: 8px;
 }
 
 table {
@@ -116,7 +156,6 @@ th, td {
   text-align: left;
   border-bottom: 1px solid #ddd;
   border: 1px solid #ddd;
-  text-align: left;
 }
 
 th {
@@ -143,13 +182,11 @@ button:hover {
   margin: 20px 0;
   padding: 10px;
   border-radius: 4px;
-  margin-top: 20px;
-  margin-top: 20px;
 }
 
 .modal {
   position: fixed;
-  top: 0;
+  top : 0;
   left: 0;
   right: 0;
   bottom: 0;
@@ -157,14 +194,6 @@ button:hover {
   display: flex;
   justify-content: center;
   align-items: center;
-
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  background: white;
-  padding: 20px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 .modal > div {
@@ -178,14 +207,6 @@ button:hover {
   margin-top: 0;
 }
 
-
-/* @media (max-width: 600px) {
-  nav ul li {
-      display: block;
-      margin: 10px 0;
-  }
-} */
-
 tr:hover {
   background-color: #f1f1f1;
 }
@@ -195,16 +216,6 @@ label {
   margin-bottom: 10px;
 }
 
-/* input[type="text"],
-input[type="date"],
-select,
-textarea {
-  width: 100%;
-  padding: 8px;
-  margin-top: 5px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-} */
 input[type="text"],
 input[type="number"],
 input[type="date"],
@@ -216,6 +227,7 @@ select {
   border: 1px solid #ccc;
   border-radius: 4px;
 }
+
 textarea {
   height: 80px;
 }
@@ -237,27 +249,27 @@ textarea {
 }
 
 .company-list {
-    list-style-type: none; 
-    padding: 0; 
+  list-style-type: none; 
+  padding: 0; 
 }
 
 .company-list li {
-    display: flex; 
-    justify-content: space-between; 
-    align-items: center; 
-    padding: 8px; 
-    border-bottom: 1px solid #ccc; 
+  display: flex; 
+  justify-content: space-between; 
+  align-items: center; 
+  padding: 8px; 
+  border-bottom: 1px solid #ccc; 
 }
 
 .delete-button {
   background-color: #282c34;
-    color: white;
-    border: none; 
-    border-radius: 4px; 
-    padding: 8px 12px; 
-    cursor: pointer; 
-    transition: background-color 0.3s ease; 
-    margin-left: auto;
+  color: white;
+  border: none; 
+  border-radius: 4px; 
+  padding: 8px 12px; 
+  cursor: pointer; 
+  transition: background-color 0.3s ease; 
+  margin-left: auto;
 }
 
 .delete-button:hover {
@@ -265,14 +277,13 @@ textarea {
 }
 
 .delete-button:focus {
-    outline: none; 
-    box-shadow: 0 0 0 2px rgba(255, 77, 77, 0.5); 
+  outline: none; 
+  box-shadow: 0 0 0 2px rgba(255, 77, 77, 0.5); 
 }
 
 .overdue {
   background-color: red;
   color: white;
-  color: black;
 }
 
 .due-today {
