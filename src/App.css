@@ -13,6 +13,7 @@
   }
 }
 
+/* Mobile Styles */
 @media (max-width: 600px) {
   nav ul {
     flex-direction: column; 
@@ -68,6 +69,7 @@
   }
 }
 
+/* Tablet Styles */
 @media (min-width: 601px) and (max-width: 900px) {
   .module {
     margin: 15px; 
@@ -92,10 +94,11 @@
   }
 }
 
-@media (min-width: 901px) {
+/* Small Desktop Styles */
+@media (min-width: 901px) and (max-width: 1200px) {
   .module {
     margin: 20px; 
-    padding: 25px;
+    padding: 25px; 
   }
 
   table {
@@ -108,7 +111,7 @@
 
   .modal > div {
     width: 60%; 
-    max-width: 600px;
+    max-width: 600px; 
   }
 
   h1 {
@@ -116,6 +119,32 @@
   }
 }
 
+/* Large Desktop Styles */
+@media (min-width: 1201px) {
+  .module {
+    margin: 20px; 
+    padding: 25px; 
+  }
+
+  table {
+    font-size: 1em; 
+  }
+
+  button {
+    width: auto; 
+  }
+
+  .modal > div {
+    width: 50%; 
+    max-width: 800px; 
+  }
+
+  h1 {
+    font-size: 2.5em; 
+  }
+}
+
+/* General Styles */
 .App {
   text-align: center;
 }
@@ -174,14 +203,14 @@ nav ul li a {
   color: white;
   text-decoration: none;
   font-weight: bold;
- padding: 8px 16px;
+  padding: 8px 16px;
   border-radius: 4px;
   transition: background-color 0.3s;
 }
 
 nav ul li a:hover {
   background-color: #565b64b6;
-  text-decoration: underline;
+ text-decoration: underline;
 }
 
 .module {
