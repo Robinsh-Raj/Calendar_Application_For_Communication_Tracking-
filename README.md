@@ -5,7 +5,7 @@ This application helps organizations maintain strong professional relationships 
 A demonstration server is available at: https://calendar-application-for-communication-tracking-usvh.vercel.app/
 
 #Screenshots
-<img src = "https://github.com/Robinsh-Raj/Calendar_Application_For_Communication_Tracking-/blob/main/Screenshot%20(184).png" alt="first">
+<img src = "https://github.com/Robinsh-Raj/Calendar_Application_For_Communication_Tracking-/blob/main/Screenshot%20(184).png" alt="first"> <img src = "https://github.com/Robinsh-Raj/Calendar_Application_For_Communication_Tracking-/blob/main/Screenshot%20(184).png" alt="first">
  
 
 
