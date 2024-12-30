@@ -1,31 +1,29 @@
-#Communication Tracking Calendar Application
+# Communication Tracking Calendar Application
 
 This application helps organizations maintain strong professional relationships by tracking communications with other companies. It allows users to log past interactions, plan future communications, and manage engagement frequency based on predefined schedules.
 
 A demonstration server is available at: https://calendar-application-for-communication-tracking-usvh.vercel.app/
 
-#Screenshots
-<img src = "https://github.com/Robinsh-Raj/Calendar_Application_For_Communication_Tracking-/blob/main/Screenshot%20(184).png" alt="first"> <img src = "https://github.com/Robinsh-Raj/Calendar_Application_For_Communication_Tracking-/blob/main/Screenshot%20(184).png" alt="first">
- 
+# Screenshots
+<img src = "https://github.com/Robinsh-Raj/Calendar_Application_For_Communication_Tracking-/blob/main/CCTA.png" alt="first"> 
 
-
-#Features
+# Features
 
 Admin Module: For setting up companies and communication parameters.
 User Module: For visualizing, managing, and performing communication tasks.
 Reporting and Analytics Module: Coming soon..
 
-#Setup Instructions
+# Setup Instructions
 
 Follow these steps to set up the application on your local machine:
 
-#Clone the Repository
+Clone the Repository
 
 Open your terminal and run:
 Git clone https://github.com/Robinsh-Raj/Calendar_Application_For_Communication_Tracking.git
 cd Calendar_Application_For_Communication_Tracking
 
-#Install Dependencies
+Install Dependencies
 
 Make sure we have npm installed. Then, run the following command to install the required dependencies:
 npm install
@@ -37,7 +35,7 @@ npm start
 
 The application should now be running at http://localhost:3000.
 
-#Deployment Instructions
+# Deployment Instructions
 
 To deploy the Communication Tracking Calendar Application using Vercel, follow these steps:
 
@@ -65,12 +63,12 @@ Access our Deployed Application
 
 Click on the provided URL to view our deployed Communication Tracking Calendar Application.
 
-#Application Functionality
+# Application Functionality
 Admin Module: Admin can set up new companies, define communication parameters, and manage user access.
 User Module: Users can log interactions, set reminders for future communications, and view a history of past engagements.
 Reporting and Analytics Module: Coming soon...
 
-#Limitations
+# Limitations
 The application currently does not support multi-language functionality.
 Reporting features are optional and may require additional configuration.
 User authentication is basic and may need enhancements for production use.
