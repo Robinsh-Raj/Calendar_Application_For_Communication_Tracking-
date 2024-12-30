@@ -17,18 +17,18 @@ Reporting and Analytics Module: Coming soon..
 
 Follow these steps to set up the application on your local machine:
 
-Clone the Repository
+*Clone the Repository
 
 Open your terminal and run:
 Git clone https://github.com/Robinsh-Raj/Calendar_Application_For_Communication_Tracking.git
 cd Calendar_Application_For_Communication_Tracking
 
-Install Dependencies
+*Install Dependencies
 
 Make sure we have npm installed. Then, run the following command to install the required dependencies:
 npm install
 
-#Run the Application
+*Run the Application
 
 Start the development server by running:
 npm start
@@ -41,7 +41,7 @@ To deploy the Communication Tracking Calendar Application using Vercel, follow t
 
 I have uploaded my project to a GitHub repository.
 
-#Log in to Vercel
+*Log in to Vercel
 
 Go to the Vercel website.
 Click on the "Login" button in the top right corner.
