@@ -20,7 +20,7 @@ Follow these steps to set up the application on your local machine:
 *Clone the Repository
 
 Open your terminal and run:
-Git clone https://github.com/Robinsh-Raj/Calendar_Application_For_Communication_Tracking.git
+Git clone https://github.com/Robinsh-Raj/Calendar_Application_For_Communication_Tracking.git then
 cd Calendar_Application_For_Communication_Tracking
 
 *Install Dependencies
