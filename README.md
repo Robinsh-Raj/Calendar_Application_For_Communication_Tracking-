@@ -1,70 +1,76 @@
-# Getting Started with Create React App
+#Communication Tracking Calendar Application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This application helps organizations maintain strong professional relationships by tracking communications with other companies. It allows users to log past interactions, plan future communications, and manage engagement frequency based on predefined schedules.
 
-## Available Scripts
+A demonstration server is available at: https://calendar-application-for-communication-tracking-usvh.vercel.app/
 
-In the project directory, you can run:
+#Screenshots
 
-### `npm start`
+ 
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+#Features
 
-### `npm test`
+Admin Module: For setting up companies and communication parameters.
+User Module: For visualizing, managing, and performing communication tasks.
+Reporting and Analytics Module: Coming soon..
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+#Setup Instructions
 
-### `npm run build`
+Follow these steps to set up the application on your local machine:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+#Clone the Repository
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Open your terminal and run:
+Git clone https://github.com/Robinsh-Raj/Calendar_Application_For_Communication_Tracking.git
+cd Calendar_Application_For_Communication_Tracking
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+#Install Dependencies
 
-### `npm run eject`
+Make sure we have npm installed. Then, run the following command to install the required dependencies:
+npm install
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+#Run the Application
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Start the development server by running:
+npm start
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+The application should now be running at http://localhost:3000.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+#Deployment Instructions
 
-## Learn More
+To deploy the Communication Tracking Calendar Application using Vercel, follow these steps:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+I have uploaded my project to a GitHub repository.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+#Log in to Vercel
 
-### Code Splitting
+Go to the Vercel website.
+Click on the "Login" button in the top right corner.
+Log in using our GitHub account.
+Import our GitHub Repository
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+After logging in, clicked on the "New Project" button.
+Vercel will display a list of our GitHub repositories. Find and select the repository for our Communication Tracking Calendar Application.
+Clicked on the "Import" button next to our repository.
+Configure Project Settings
 
-### Analyzing the Bundle Size
+Review the settings that Vercel suggests for our project.
+Clicked on the "Deploy" button to start the deployment process.
+Wait for Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Monitor the progress in the Vercel dashboard.
+Once the deployment is complete, I received a URL for our deployed application.
+Access our Deployed Application
 
-### Making a Progressive Web App
+Click on the provided URL to view our deployed Communication Tracking Calendar Application.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+#Application Functionality
+Admin Module: Admin can set up new companies, define communication parameters, and manage user access.
+User Module: Users can log interactions, set reminders for future communications, and view a history of past engagements.
+Reporting and Analytics Module: Coming soon...
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+#Limitations
+The application currently does not support multi-language functionality.
+Reporting features are optional and may require additional configuration.
+User authentication is basic and may need enhancements for production use.
